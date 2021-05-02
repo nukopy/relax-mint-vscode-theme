@@ -39,5 +39,8 @@
         "path": "./themes/relax-mint-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "vsce": "^1.88.0"
   }
 }
