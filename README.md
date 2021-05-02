@@ -2,7 +2,7 @@
 
 A Visual Studio Code theme, Relax Mint, dark green & grey for eyes.
 
-This theme is for writing, not coding, e.g. Markdown or LaTeX.
+This theme is created for writing, not coding, e.g. Markdown or LaTeX.
 
 ## Installation
 
@@ -13,6 +13,14 @@ Search the extension `Relax Mint` on Visual Studio Code like below:
 Also available on [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=nukopy.relax-mint).
 
 ## Screenshot
+
+### Markdown
+
+todo: Markdown
+
+### LaTeX
+
+todo: LaTeX
 
 ## Credit
 
