@@ -8,6 +8,8 @@ This theme is for writing, not coding, e.g. Markdown or LaTeX.
 
 Search `Relax Mint` on Visual Studio Code like below:
 
+![installation](./img/installation.png)
+
 Also available on [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=nukopy.relax-mint).
 
 ## Screenshot
