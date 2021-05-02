@@ -4,6 +4,12 @@ All notable changes to the "relax-mint" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.1] 2021-05-03
+
+### Added
+
+- settings for GitHub Actions for release automation
+
 ## [0.1.0] 2021-05-02
 
 ### Added
