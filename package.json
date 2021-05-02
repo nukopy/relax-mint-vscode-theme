@@ -1,0 +1,43 @@
+{
+  "name": "relax-mint",
+  "displayName": "Relax Mint",
+  "description": "Relax Mint Theme, based on dark green & grey for eyes. This theme is for writing Markdown.",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "visual studio code",
+    "vscode",
+    "extension",
+    "markdown"
+  ],
+  "icon": "img/relax-mint.png",
+  "version": "0.1.0",
+  "homepage": "https://github.com/nukopy/relax-mint-vscode-theme",
+  "bugs": {
+    "url": "https://github.com/nukopy/relax-mint-vscode-theme/issues"
+  },
+  "publisher": "nukopy",
+  "author": {
+    "name": "nukopy",
+    "email": "pytwbf201830@gmail.com",
+    "url": "https://github.com/nukopy"
+  },
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nukopy/relax-mint-vscode-theme.git"
+  },
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Relax Mint",
+        "uiTheme": "vs",
+        "path": "./themes/relax-mint-color-theme.json"
+      }
+    ]
+  }
+}
