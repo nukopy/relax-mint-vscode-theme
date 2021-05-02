@@ -22,10 +22,10 @@ todo: Markdown
 
 todo: LaTeX
 
-## Credit
-
-Created my free logo of Relax Mint at [LogoMakr.com](https://logomakr.com/).
-
 ## CHANGELOG
 
 - [CHANGELOG.md](https://github.com/nukopy/relax-mint-vscode-theme/blob/master/CHANGELOG.md)
+
+## Credit
+
+Created my free logo of Relax Mint at [LogoMakr.com](https://logomakr.com/).
