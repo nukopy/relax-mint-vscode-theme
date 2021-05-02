@@ -138,7 +138,7 @@
     // --------------------
 
     // general
-    "editor.background": "#dcdcdc",
+    "editor.background": "#c2c1c1c0",
     // "editor.background": "#ff0000",
     "editor.foreground": "#333333",
 
