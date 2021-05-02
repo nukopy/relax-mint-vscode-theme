@@ -39,7 +39,7 @@ jobs:
 
       # Install deps, build, pack and deploy
       - name: Build & Publish
-        run: npm install && vsce publish
+        run: npm install && npx vsce publish
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
 
