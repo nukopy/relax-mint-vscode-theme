@@ -1,2 +1,6 @@
+# mac
+.DS_Store
+
+# vscode
 .vscode**
 **.code-workspace
