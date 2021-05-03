@@ -4,6 +4,7 @@
   "colors": {
     // --------------------
     // base colors
+    // ref: https://code.visualstudio.com/api/references/theme-color
     // --------------------
 
     "focusBorder": "#9daab6",
@@ -58,9 +59,9 @@
     "list.activeSelectionBackground": "#2a918782",
     // "list.activeSelectionForeground": "#ff0000",
     // "list.deemphasizedForeground": "#ff0000",
-    // "list.dropBackground": "#ff0000",
+    "list.dropBackground": "#2a918782",
     // "list.errorForeground": "#ff0000",
-    // "list.filterMatchBackground": "#ff0000",
+    "list.filterMatchBackground": "#0000",
     // "list.filterMatchBorder": "#ff0000",
     // "list.focusBackground": "#ff0000",
     // "list.focusForeground": "#ff0000",
@@ -77,6 +78,7 @@
     // "listFilterWidget.background": "#ff0000",
     // "listFilterWidget.noMatchesOutline": "#ff0000",
     // "listFilterWidget.outline": "#ff0000",
+    // "tree.indentGuidesStroke": "#ff0000",
 
     // --------------------
     // input
@@ -106,7 +108,8 @@
     // "welcomePage.tileBackground": "#ff0000",
     // "welcomePage.tileHoverBackground": "#ff0000",
     // "welcomePage.tileShadow.": "#ff0000",
-    "textLink.foreground": "#1f6a62",
+    "textLink.foreground": "#b88b11",
+    "textLink.activeForeground": "#1f6a62",
 
     // --------------------
     // menu bar
@@ -115,6 +118,53 @@
     // menu bar
     // "menu.background": "#ff0000",
     // "menu.border": "#ff0000",
+
+    // --------------------
+    // editor
+    // --------------------
+
+    // general
+    "editor.background": "#c2c1c1c0",
+    // "editor.background": "#ff0000",
+    "editor.foreground": "#333333",
+
+    // breadcrumb
+    "breadcrumb.foreground": "#dcdcdc",
+    "breadcrumb.background": "#1f6a62",
+
+    // editor group
+    "editorGroup.border": "#9191917e",
+    "editorGroup.dropBackground": "#8d8b8d4f",
+    "editorGroupHeader.border": "#9daab6",
+    "editorGroupHeader.tabsBackground": "#1b5b55f9",
+    // "editorGroupHeader.noTabsBackground": "#ff0000",
+    "scrollbar.shadow": "#919191",
+    // "editorGroup.emptyBackground": "#ff0000",
+
+    // line number
+    "editorLineNumber.foreground": "#1f6a6397",
+    "editorLineNumber.activeForeground": "#1f6a62",
+
+    // line highlight
+    "editor.lineHighlightBackground": "#7c7a7a3c",
+
+    // selection highlight
+    "editor.selectionBackground": "#b1b1b17c",
+    // "editor.selectionHighlightBorder": "#ff0000",
+
+    // editor widget
+    "editorWidget.background": "#1f6a63f5",
+    "editorWidget.foreground": "#dcdcdc",
+    // "editorWidget.border": "#ff0000"
+
+    // editor suggest widget
+    // "editorSuggestWidget.highlightForeground": "#ff0000",
+
+    // editor hover widget
+    "editorHoverWidget.background": "#1f6a63f5",
+    // "editorHoverWidget.statusBarBackground": "#ff0000",
+    "editorHoverWidget.foreground": "#dcdcdc",
+    "editorHoverWidget.border": "#154b45",
 
     // tab
     // tab: general
@@ -134,54 +184,70 @@
     "tab.inactiveForeground": "#dcdcdc",
 
     // --------------------
-    // editor
+    // preview
     // --------------------
 
-    // general
-    "editor.background": "#c2c1c1c0",
-    // "editor.background": "#ff0000",
-    "editor.foreground": "#333333",
+    // "imagePreview.border": "#ff0000",
 
-    // breadcrumb
-    "breadcrumb.foreground": "#dcdcdc",
-    "breadcrumb.background": "#1f6a62",
+    // --------------------
+    // panel colors: "TERMINAL", "OUTPUT", etc...
+    // ref: https://code.visualstudio.com/api/references/theme-color#panel-colors
+    // --------------------
 
-    // editor group
-    "editorGroup.border": "#9191917e",
-    "editorGroupHeader.border": "#9daab6",
-    "scrollbar.shadow": "#919191",
-    "editorGroupHeader.tabsBackground": "#1b5b55f9",
-    // "editorGroup.emptyBackground": "#ff0000",
+    // panel
+    "panel.background": "#c2c1c1",
+    "panel.border": "#919191",
+    // "panel.dropBorder": "#ff0000",
 
-    // line number
-    "editorLineNumber.foreground": "#1f6a6397",
-    "editorLineNumber.activeForeground": "#1f6a62",
+    // panel title
+    "panelTitle.activeBorder": "#1b5b55f9",
+    "panelTitle.activeForeground": "#3b454e",
+    "panelTitle.inactiveForeground": "#3b454e8a",
 
-    // line highlight
-    "editor.lineHighlightBackground": "#b1b1b13c",
+    // panel section
+    // "panelSection.border": "#ff0000",
+    // "panelSection.dropBackground": "#ff0000",
 
-    // selection highlight
-    "editor.selectionBackground": "#b1b1b17c",
-    // "editor.selectionHighlightBorder": "#ff0000",
-
-    // editor widget
-    "editorWidget.background": "#1f6a63f5",
-    "editorWidget.foreground": "#dcdcdc",
-    // "editorWidget.border": "#ff0000"
+    // panel section header
+    // "panelSectionHeader.background": "#c2c1c1c0",
+    // "panelSectionHeader.border": "#ff0000",
+    // "panelSectionHeader.foreground": "#ff0000",
 
     // --------------------
     // integrated terminal
     // --------------------
 
     // integrated terminal
-    "terminal.background": "#c2c1c1c0",
-    "terminal.foreground": "#dcdcdc",
-    // todo
+    // "terminal.background": "#c2c1c1c0",
+    "terminal.background": "#c2c1c1",
+    "terminal.foreground": "#3b454e",
+    "terminalCursor.background": "#1b5b55",
+    "terminalCursor.foreground": "#1b5b55",
+
+    // integrated terminal color
+    // make it easier to see font colors in grey terminal
+    "terminal.ansiWhite": "#1b5b55",
+    "terminal.ansiBrightWhite": "#1b5b55",
+    "terminal.ansiBlack": "#3b454e",
+    "terminal.ansiBrightBlack": "#3b454e",
+    // "terminal.ansiBlue": "#ff0000",
+    // "terminal.ansiBrightBlue": "#ff0000",
+    "terminal.ansiRed": "#ff0000",
+    "terminal.ansiBrightRed": "#ff0000",
+    // "terminal.ansiGreen": "#3b454e",
+    "terminal.ansiBrightGreen": "#3b454e",
+    "terminal.ansiYellow": "#3b454e",
+    "terminal.ansiBrightYellow": "#3b454e",
+    "terminal.ansiCyan": "#1b5b55",
+    "terminal.ansiBrightCyan": "#1b5b55",
+    // "terminal.ansiMagenta": "#ff0000",
+    // "terminal.ansiBrightMagenta": "#ff0000",
 
     // dropdown
-    "dropdown.background": "#dcdcdc",
     "dropdown.border": "#919191",
+    "dropdown.background": "#91919162",
     "dropdown.foreground": "#3b454e",
+    // "dropdown.listBackground": "#ff0000",
 
     // ----------------------------------------------------------------------------------------------------
     // Git colors: https://code.visualstudio.com/api/references/theme-color#git-colors
@@ -217,7 +283,7 @@
     // "gitlens.gutterBackgroundColor": "#ff0000",
     // "gitlens.gutterForegroundColor": "#ff0000",
     // "gitlens.gutterUncommittedForegroundColor": "#ff0000",
-    // "gitlens.lineHighlightBackgroundColor": "#ff0000",
+    // "gitlens.lineHighlightBackgroundColor": "#ff0000"
     // "gitlens.lineHighlightOverviewRulerColor": "#ff0000",
     // "gitlens.mergedPullRequestIconColor": "#ff0000",
     // "gitlens.openPullRequestIconColor": "#ff0000",
