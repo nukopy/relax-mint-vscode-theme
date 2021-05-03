@@ -44,6 +44,15 @@
     "activityBar.activeBorder": "#dcdcdc",
     // "activityBar.activeFocusBorder": "#ff0000",
 
+    // activity badge
+    "activityBarBadge.background": "#135750",
+    // "activityBarBadge.background": "#b88b11",
+    "activityBarBadge.foreground": "#dcdcdc",
+
+    // badge
+    "badge.background": "#c2c1c1",
+    "badge.foreground": "#333333",
+
     // --------------------
     // side bar: display files in left
     // --------------------
