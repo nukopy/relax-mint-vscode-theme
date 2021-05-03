@@ -221,8 +221,8 @@
     // "terminal.background": "#c2c1c1c0",
     "terminal.background": "#c2c1c1",
     "terminal.foreground": "#3b454e",
-    "terminalCursor.background": "#1b5b55",
-    "terminalCursor.foreground": "#1b5b55",
+    // "terminalCursor.background": "#1b5b55",
+    "terminalCursor.foreground": "#1b5b55a1",
 
     // integrated terminal color
     // make it easier to see font colors in grey terminal
