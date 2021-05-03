@@ -4,6 +4,12 @@ All notable changes to the "relax-mint" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.3] 2021-05-03
+
+- Add styling for integrated terminal
+- Fix some color setting bugs
+- Add screenshots in README
+
 ## [0.1.2] 2021-05-03
 
 - fix CI problems that the steps which creates commits summary doesn't work
