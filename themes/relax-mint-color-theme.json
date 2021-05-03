@@ -108,7 +108,7 @@
     // "welcomePage.tileBackground": "#ff0000",
     // "welcomePage.tileHoverBackground": "#ff0000",
     // "welcomePage.tileShadow.": "#ff0000",
-    "textLink.foreground": "#b88b11",
+    "textLink.foreground": "#b88b11", // accent color
     "textLink.activeForeground": "#1f6a62",
 
     // --------------------
@@ -124,7 +124,7 @@
     // --------------------
 
     // general
-    "editor.background": "#c2c1c1c0",
+    "editor.background": "#c2c1c1",
     // "editor.background": "#ff0000",
     "editor.foreground": "#333333",
 
