@@ -12,7 +12,9 @@ Search the extension `Relax Mint` on Visual Studio Code like below:
 
 Also available on [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=nukopy.relax-mint).
 
-## Screenshot
+## Screenshots
+
+### Overall
 
 ### Markdown
 
