@@ -1,5 +1,15 @@
 # Relax Mint
 
+[![release](https://github.com/nukopy/relax-mint-vscode-theme/actions/workflows/cd.yml/badge.svg?branch=v0.1.3)](https://github.com/nukopy/relax-mint-vscode-theme/actions/workflows/cd.yml)
+
+[![GitHub](https://img.shields.io/github/release/nukopy/relax-mint-vscode-theme.svg?style=flat-square)](https://github.com/nukopy/relax-mint-vscode-theme/releases)
+
+[![vsm-version](https://img.shields.io/visual-studio-marketplace/v/nukopy.relax-mint?style=flat-square&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=nukopy.relax-mint)
+
+[![vsm-installs](https://img.shields.io/visual-studio-marketplace/i/nukopy.relax-mint?style=flat-square&label=installs&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=nukopy.relax-mint)
+
+[![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+
 A Visual Studio Code theme, Relax Mint, dark green & grey for eyes.
 
 This theme is created for writing in markup languages such as Markdown and LaTeX., NOT for coding.
