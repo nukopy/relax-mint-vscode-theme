@@ -16,13 +16,23 @@ Also available on [Visual Studio Code Marketplace](https://marketplace.visualstu
 
 ### Overall
 
+![Overall](./img/screenshot-overall.png)
+
 ### Markdown
 
 todo: Markdown
 
+![Markdown](./img/screenshot-markdown.png)
+
 ### LaTeX
 
 todo: LaTeX
+
+![LaTeX](./img/screenshot-latex.png)
+
+### Git Diff
+
+![Git Diff](./img/screenshot-git-diff.png)
 
 ## CHANGELOG
 
