@@ -40,7 +40,7 @@
     "activityBar.background": "#1f6a62",
     "activityBar.foreground": "#dcdcdc",
     "activityBar.inactiveForeground": "#76aba4",
-    "activityBar.activeBackground": "#2d6f67",
+    "activityBar.activeBackground": "#2c7c73",
     "activityBar.activeBorder": "#dcdcdc",
     // "activityBar.activeFocusBorder": "#ff0000",
 
@@ -61,12 +61,13 @@
     "sideBar.background": "#1b5b55f9",
     "sideBar.foreground": "#dcdcdc",
     "sideBar.border": "#1b5b55f9",
+    "sideBarTitle.foreground": "#dcdcdc",
+
     // "sideBar.dropBackground": "#23766ff3",
     "sideBarSectionHeader.background": "#1f6a62",
+    "sideBarSectionHeader.foreground": "#dcdcdc",
 
     // file explorer
-    "list.activeSelectionBackground": "#2a918782",
-    // "list.activeSelectionForeground": "#ff0000",
     // "list.deemphasizedForeground": "#ff0000",
     "list.dropBackground": "#2a918782",
     // "list.errorForeground": "#ff0000",
@@ -76,18 +77,32 @@
     // "list.focusForeground": "#ff0000",
     // "list.focusOutline": "#ff0000",
     // "list.highlightForeground": "#ff0000",
-    "list.hoverBackground": "#1f6a6382",
-    // "list.hoverForeground": "#ff0000",
+    "list.hoverBackground": "#2e6b65",
+    "list.hoverForeground": "#dcdcdc",
+
+    // list active selection
+    "list.activeSelectionBackground": "#2a918782",
+    // "list.activeSelectionForeground": "#ff0000",
+
+    // list inactive
     // "list.inactiveFocusBackground": "#ff0000",
     // "list.inactiveFocusOutline": "#ff0000",
     "list.inactiveSelectionBackground": "#2a918782",
     "list.inactiveSelectionForeground": "#dcdcdc",
-    // "list.invalidItemForeground": "#ff0000",
+
+    // "list.invalidItemForeground": "#dcdcdc",
     // "list.warningForeground": "#ff0000",
     // "listFilterWidget.background": "#ff0000",
     // "listFilterWidget.noMatchesOutline": "#ff0000",
     // "listFilterWidget.outline": "#ff0000",
     // "tree.indentGuidesStroke": "#ff0000",
+
+    // extensions
+    // "extensionBadge.remoteBackground": "#ff0000",
+    "extensionButton.prominentBackground": "#b88b11",
+    "extensionButton.prominentForeground": "#dcdcdc",
+    "extensionIcon.starForeground": "#b88b11",
+    "extensionButton.prominentHoverBackground": "#b88c11b0",
 
     // --------------------
     // input
@@ -147,8 +162,14 @@
     "editorGroupHeader.border": "#9daab6",
     "editorGroupHeader.tabsBackground": "#1b5b55f9",
     // "editorGroupHeader.noTabsBackground": "#ff0000",
-    "scrollbar.shadow": "#919191",
+    "settings.focusedRowBackground": "#282c34",
     // "editorGroup.emptyBackground": "#ff0000",
+
+    // scroll
+    "scrollbar.shadow": "#919191",
+    "scrollbarSlider.activeBackground": "#747d9180",
+    "scrollbarSlider.background": "#4e566660",
+    "scrollbarSlider.hoverBackground": "#5a637580",
 
     // line number
     "editorLineNumber.foreground": "#1f6a6397",
@@ -205,12 +226,12 @@
 
     // panel
     "panel.background": "#c2c1c1",
-    "panel.border": "#919191",
+    // "panel.border": "#919191",
     // "panel.dropBorder": "#ff0000",
 
     // panel title
     "panelTitle.activeBorder": "#1b5b55f9",
-    "panelTitle.activeForeground": "#3b454e",
+    "panelTitle.activeForeground": "#1b5b55f9",
     "panelTitle.inactiveForeground": "#3b454e8a",
 
     // panel section
@@ -301,6 +322,10 @@
     // "gitlens.unpublishedCommitIconColor": "#ff0000",
     // "gitlens.unpulledChangesIconColor": "#ff0000",
     // "gitlens.unpushlishedChangesIconColor": "#ff0000"
+
+    // Git diff
+    // "diffEditor.insertedTextBackground": "#ff0000",
+    // "diffEditor.removedTextBackground": "#ff0000"
   },
 
   // --------------------
