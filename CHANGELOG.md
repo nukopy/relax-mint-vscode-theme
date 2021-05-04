@@ -6,7 +6,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.1.4] 2021-05-05
 
-- Add styling for badges
+- Add styling for badges in activity bar
+- Add badges in README
 
 ## [0.1.3] 2021-05-03
 
