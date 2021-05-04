@@ -4,6 +4,10 @@ All notable changes to the "relax-mint" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.4] 2021-05-05
+
+- Add styling for badges
+
 ## [0.1.3] 2021-05-03
 
 - Add styling for integrated terminal
