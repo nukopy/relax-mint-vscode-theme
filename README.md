@@ -36,6 +36,18 @@ todo: LaTeX
 
 ![Git Diff](./img/screenshot-git-diff.png)
 
+## How to Publish
+
+```sh
+# 1. edit theme setting files
+# 2. change CHANGELOG.md & package.json
+# 3. push
+git push origin master
+
+# 4. push tag
+git tag -a v0.1.x -m "Release v0.1.x" HEAD && git push origin v0.1.x
+```
+
 ## CHANGELOG
 
 - [CHANGELOG.md](https://github.com/nukopy/relax-mint-vscode-theme/blob/master/CHANGELOG.md)
