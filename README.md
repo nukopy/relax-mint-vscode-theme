@@ -46,6 +46,9 @@ git push origin master
 
 # 4. push tag
 git tag -a v0.1.x -m "Release v0.1.x" HEAD && git push origin v0.1.x
+
+# 5. if you failed, delete local & remote tag
+git tag -d v0.1.x && git push origin :v0.1.x
 ```
 
 ## CHANGELOG
