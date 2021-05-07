@@ -79,6 +79,7 @@
     // "list.highlightForeground": "#ff0000",
     "list.hoverBackground": "#2e6b65",
     "list.hoverForeground": "#dcdcdc",
+    // "list.hoverForeground": "#ff0000",
 
     // list active selection
     "list.activeSelectionBackground": "#2a918782",
@@ -179,7 +180,7 @@
     "editor.lineHighlightBackground": "#7c7a7a3c",
 
     // selection highlight
-    "editor.selectionBackground": "#b1b1b17c",
+    "editor.selectionBackground": "#5f5e5e7c",
     // "editor.selectionHighlightBorder": "#ff0000",
 
     // editor widget
@@ -331,7 +332,7 @@
   // --------------------
   // language theme settings
   // --------------------
-
+  "semanticTokenColors": {},
   "tokenColors": [
     // --------------------
     // general
@@ -341,7 +342,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#AAAAAA"
+        "foreground": "#777575"
       }
     },
     {
@@ -446,14 +447,8 @@
       "name": "Strings",
       "scope": "string",
       "settings": {
-        "foreground": "#448C27"
+        "foreground": "#1b5b55"
       }
-    },
-    {
-      "name": "Strings: Escape Sequences",
-      "scope": "constant.character.escape",
-      "settings": {
-        "foreground": "#777777"
       }
     },
     {
